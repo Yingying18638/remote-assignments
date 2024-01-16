@@ -80,7 +80,7 @@ footer{
 
 
 /*---------media------------*/
-@media only screen and (min-width: 500px) and (max-width:800px){
+@media only screen and (min-width: 500px){
 	.container1,
 	.container2{
 		display: flex;
@@ -89,14 +89,10 @@ footer{
 		width: 50%;
 		height: 20vh;
 	}
-	.item{
-		margin: 15px;
-		display: none;
-	}
 }
 
 
-@media only screen and(min-width: 800px) and (max-width:1200px) {
+@media only screen and (min-width: 800px){
 	.container1,
 	.container2{
 		display: flex;
@@ -115,8 +111,12 @@ footer{
 }
 
 
-@media only screen and (min-width: 1200px){
 
+
+
+
+
+@media only screen and (min-width: 1200px){
 	.container1,
 	.container2{
 		display: flex;
