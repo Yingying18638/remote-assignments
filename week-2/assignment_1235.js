@@ -1,3 +1,5 @@
+//修正第三題、optional
+
 // ----------第一題-------------------------
 
 function max(numbers) {
@@ -30,14 +32,14 @@ console.log(calculate({ n1: 2, n2: 3, op: '+' })); // expected output: 5
 console.log(calculate({ n1: 5, n2: 2, op: '-' })); // expected output: 3 
 console.log(calculate({ n1: 1, n2: 6, op: 'x' })); // expected output: 'Not supported'
 
-//-------------第三題----------------------------
+//-------------第三題--已修正--------------------
 
 
 function calculate(data) {
 // your code here
 	let total=0;
 	for(let k=0; k<data.products.length; k++){
-		total += ( data.products[k].price )* data.discount;
+		total += ( data.products[k].price )* (1-data.discount);
 	} return total;
 }
 
@@ -60,10 +62,10 @@ const discountedPrice = calculate({
 });
 console.log(discountedPrice) // show the total price of all products after applying a discount
 
-// ------------advanced optional--------------------
+// ------------advanced optional-已修正-------------------
 function twoSum(nums, target) {
 // your code here
-	let ans=[0,0]
+	let ans=[-1,-1]
 	for(let i =0; i<nums.length; i++){
 		for(let j =i+1; j<nums.length;j++){
 			if(nums[i]+nums[j]===target){
@@ -72,7 +74,7 @@ function twoSum(nums, target) {
 			}
 		}
 	}
-	if (ans[0]===0 && ans[1]===0){    //條件設定
+	if (ans[0]+ans[1]<0){    //條件設定
 		return `No answer`;
 	} else{
 		return ans;
