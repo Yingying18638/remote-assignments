@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Yingying18638/layout.git/static/css/main.1921598c.css",
+    "main.js": "/Yingying18638/layout.git/static/js/main.0e7b451a.js",
+    "static/js/592.6a404ca5.chunk.js": "/Yingying18638/layout.git/static/js/592.6a404ca5.chunk.js",
+    "index.html": "/Yingying18638/layout.git/index.html",
+    "main.1921598c.css.map": "/Yingying18638/layout.git/static/css/main.1921598c.css.map",
+    "main.0e7b451a.js.map": "/Yingying18638/layout.git/static/js/main.0e7b451a.js.map",
+    "592.6a404ca5.chunk.js.map": "/Yingying18638/layout.git/static/js/592.6a404ca5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1921598c.css",
+    "static/js/main.0e7b451a.js"
+  ]
+}
