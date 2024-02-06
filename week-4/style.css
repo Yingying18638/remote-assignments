@@ -1,0 +1,13 @@
+#list {
+    width: 50vw;
+}
+
+ul{
+    border: sienna 1px solid;
+    background-color:#eee;
+    padding: 1em;
+}
+
+li {
+    list-style: none;
+}
