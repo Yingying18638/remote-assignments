@@ -1,0 +1,13 @@
+doctype html 
+html(lang="en")
+    head 
+        title project 
+        link(rel="stylesheet", href="styles.css")
+    body
+        if name
+            h3 Welcome ,#{name}
+        else
+            h3 Input your name
+            form(action=`/trackName` method="POST")
+                input(name="yourname" value="使用者的輸入")
+                button 送出
